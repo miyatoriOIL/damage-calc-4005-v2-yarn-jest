@@ -1,14 +1,17 @@
 {
-  "name": "damage-calc",
-  "version": "1.0.0",
-  "description": "caliculator of damage",
-  "main": "index.js",
-  "author": "",
-  "scripts": {
-    "test": "jest"
-  },
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^25.1.0"
-  }
+    "name": "damage-calc",
+    "version": "1.0.0",
+    "description": "caliculator of damage",
+    "main": "index.js",
+    "author": "",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "reporters": ["default", "jest-junit"]
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^25.1.0"
+    }
 }
